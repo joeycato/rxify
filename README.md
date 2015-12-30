@@ -21,6 +21,7 @@ Each string argument is basically an observable sequence expressed in ASCII marb
 The easiest way to convert a marble string directly to an observable is to call **rxify.of**, **rxify.just**, or **rxify.from**:
 
 ```javascript
+var rxify = require('rxify');
 var obs = rxify.of('A...B...');
 obs = rxify.just('A...B...');
 obs = rxify.from('A...B...');
