@@ -122,7 +122,7 @@ console.log('debounce example: ' + rxify.of(input).debounce(1).toString());
 // Output: '..A....B.....C......D........E......F.....G'
 ```
 
-If you'd like more examples on how to use rxify, please refer to the unit tests on the main repo.
+If you'd like more examples on how to use rxify, please refer to these [unit tests](https://github.com/joeycato/rxify/blob/master/test/index.js)
 
 #### Supported Observable Methods
 * **amb**
