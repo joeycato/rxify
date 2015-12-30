@@ -103,7 +103,7 @@ console.log('filter example: ' + rxify.from(seq).
 ```
 
 ```javascript
-console.log('bufferWithTime: ' + rxify.interval(1).
+console.log('bufferWithTime example: ' + rxify.interval(1).
     bufferWithTime(5,1).
     take(3)
 );
@@ -112,7 +112,7 @@ console.log('bufferWithTime: ' + rxify.interval(1).
 
 ```javascript
 var input = 'AA..BBB..CCCC...DDDD...EEEEEE..FFFFF..GGGGG';
-console.log('debounce: ' + rxify.of(input).debounce(1).toString());
+console.log('debounce example: ' + rxify.of(input).debounce(1).toString());
 // Output: '..A....B.....C......D........E......F.....G'
 ```
 
