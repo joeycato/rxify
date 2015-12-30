@@ -196,7 +196,7 @@ If you'd like more examples on how to use rxify, please refer to these [unit tes
 * retry
 * sample
 * scan
-* select**
+* select
 * selectMany
 * sequenceEqual
 * skip
