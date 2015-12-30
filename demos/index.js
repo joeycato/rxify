@@ -55,14 +55,14 @@ module.exports = {
         );
         // Output: 'filter example: .2.4.6.8.'
 
-        console.log('bufferWithTime: ' + rxify.interval(1).
+        console.log('bufferWithTime example: ' + rxify.interval(1).
             bufferWithTime(5,1).
             take(3)
         );
         // Output: 'bufferWithTime: ....(0,1,2,3,4)(0,1,2,3,4,5)(2,3,4,5,6)'
 
         var input = 'AA..BBB..CCCC...DDDD...EEEEEE..FFFFF..GGGGG';
-        console.log('debounce: ' + rxify.of(input).debounce(1).toString());
+        console.log('debounce example: ' + rxify.of(input).debounce(1).toString());
         // Output: '..A....B.....C......D........E......F.....G'
 
     }
