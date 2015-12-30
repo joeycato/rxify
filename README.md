@@ -4,10 +4,15 @@ An RxJS library wrapper that lets you execute Rx operators directly using marble
 
 **rxify** was mainly created as an educational tool to guide those ramping up on Reactive Extensions for the first time by presenting an alternative way to visualize and experiment on its asynchronous features. However, some folks may find it useful for other purposes such as general problem-solving or simplifying unit tests.
 
-Each string argument is basically an observable sequence expressed in ASCII marble diagram notation. For example, the string ```'A...B'``` represents a stream of two events separated by some passage of time. In **rxify** the actual unit of time is not important, so it may be easier to just imagine each ```'.'``` as one *tick* of time. Also, to simplify things further, the end of a string is automatically interpreted as an ```onCompleted``` action. Technically you can represent that with ```'|'``` but it's purely optional.
-
+##### Installation
+```javascript
+npm install rxify
+```
 
 ##### Marble Notation / Terminology
+
+Each string argument is basically an observable sequence expressed in ASCII marble diagram notation. For example, the string ```'A...B'``` represents a stream of two events separated by some passage of time. In **rxify** the actual unit of time is not important, so it may be easier to just imagine each ```'.'``` as one *tick* of time. Also, to simplify things further, the end of a string is automatically interpreted as an ```onCompleted``` action. Technically you can represent that with ```'|'``` but it's purely optional.
+
 |Sequence Character | Meaning |
 | :------------- | :------------- |
 | **.** | One tick of elapsed time |
