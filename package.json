@@ -1,6 +1,6 @@
 {
   "name": "rxify",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "An RxJS library wrapper that lets you execute Rx operators directly using marble-diagram ASCII string arguments.",
   "main": "es5/index.js",
   "scripts": {
