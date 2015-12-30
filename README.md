@@ -68,11 +68,11 @@ obs.display();
 
 #### Dealing with Time
 
-Note: When calling a RxJS operator that normally expects a time-based argument in milliseconds, with rxify you should instead pass in the desired number of ticks. For example:
+When calling a RxJS operator that normally expects a time-based argument in milliseconds, with rxify you should instead pass in the desired number of ticks. For example:
 ```javascript
 rxify.delay(3) // Interpreted as '...'
 ```
-Note: You can also represent the argument as a sequence string:
+You can also represent the argument as a sequence string:
 ```javascript
 rxify.delay('...')
 ```
