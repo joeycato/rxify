@@ -1,0 +1,28 @@
+### Node / Build Excludes ###
+node_modules
+
+### Generic Excludes ###
+*.bak
+
+### Dot-directory catch-all ###
+.*/
+
+### OS Excludes ###
+.DS_Store*
+Thumbs.db
+
+### Sublime Users ###
+*.sublime-project
+*.sublime-workspace
+
+### IntelliJ Users ###
+*.iml
+*.ipr
+*.iws
+
+### Vim Users ###
+*.swp
+*.swo
+*~
+*.pyc
+tags
